@@ -1,0 +1,80 @@
+@import "../../global.scss";
+
+.list{
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 10%;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+ 
+ &.active{
+    background-color: $mainColor;
+    color:white;
+  }
+}
+
+.abilities{
+    background-color: white;
+    color: $mainColor;
+    text-align: center;
+}
+.abilities h1{
+    padding-bottom:1rem;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+.abilities hr{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+}
+.abilities-tab-div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    ul{
+        margin-bottom: 30px;
+        padding: 10px;
+         list-style: none;
+         display: flex;     
+    }
+}
+.display-ability{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.display-ability:hover{
+    background-color: #e9e9e9;
+    transform: scale(1.01);
+}
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .display-ability-name{
+      font-size: large;
+      padding-bottom: 20px;
+    
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .list{
+        font-size: 15px;
+    }
+   
+    .container{
+     justify-content:space-between;
+    }
+   
+}
