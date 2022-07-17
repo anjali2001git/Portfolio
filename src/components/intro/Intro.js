@@ -32,7 +32,8 @@ import "./intro.scss";
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Anjali Jain</h1>
-          <h3>Web Developer <span ref={textRef}></span></h3>
+          <h2>Web Developer</h2>
+          <h3><span ref={textRef}></span></h3>
         </div>
         <div className="arr">
         <a href="#about-me ">

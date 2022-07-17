@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import ProjectsList from "../projectsList/ProjectsList";
 import "./projects.scss";
 import Button from 'react-bootstrap/Button';
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import {fullStackProjects,frontEndProjects, backendProjects} from "../../data/ProjectsData";
+import {fullStackProjects,frontEndProjects,backendProjects} from "../../data/ProjectsData";
 
 function Projects() {
   const [selected,setSelected]=useState("full Stack");
@@ -67,7 +66,7 @@ function Projects() {
           </div>
             <div className='display-projects-link-div'>
                <a href={d.link} target="_blank" rel="noopener noreferrer">
-               <Button variant="outline-primary">Explore <ArrowRightAltIcon/></Button></a>
+               <Button variant="outline-primary">Explore </Button></a>
             </div>
         </div>
         ))}
