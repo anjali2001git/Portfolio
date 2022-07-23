@@ -46,7 +46,7 @@ function Contact() {
           <br />
           <br/>
           Email :
-          <h4>anjali952001@gmail</h4><br />
+          <h4>anjali952001@gmail.com</h4><br />
           Phone No. :
           <h4>+91-6377673058</h4><br />
         </div>

@@ -9,7 +9,7 @@ function Projects() {
   const [data,setData]=useState([]);
     
    const list=[
-    {
+    { 
       id:"full Stack",
       title:"Full Stack"
     },

@@ -12,7 +12,7 @@ function Works() {
                     <h2>AboutMe</h2><br />
                     <p>
                     
-I am a Pre Final Year undergraduate & I have deep interest in Data structures and Algorithms & strive to make
+I am a Final Year undergraduate & I have deep interest in Data structures and Algorithms & strive to make
 my code efficient and elegant. Seeking an entry level opportunity where I can utilize my skills and enhance
 learning in the field of work.Capable of mastering new technologies
                     </p>
